@@ -1,0 +1,53 @@
+@import url("null.css");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap");
+
+@font-face {
+    font-family: "BlowBrush";
+    src: url("../fonts/BlowBrush.woff2") format("woff2"), url("../fonts/BlowBrush.woff") format("woff");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+body {
+    font-size: 50px;
+}
+
+.blowbrush {
+    font-family: "BlowBrush";
+    color: rgba(252, 75, 6, 0.815);
+    text-shadow: 20px 15px 5px #000;
+    line-height: 1.5;
+}
+
+.lato {
+    font-family: lato;
+    font-weight: 700;
+}
+.supermercado {
+    font-family: "Supermercado One", cursive;
+    text-align: right;
+}
+
+.center {
+    text-align: center;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.decoration {
+    font-size: 55px;
+    color: violet;
+    text-align: center;
+}
+.underline {
+    text-decoration: underline;
+}
+.overline {
+    text-decoration: overline;
+}
+.line-through {
+    text-decoration: line-through;
+}
